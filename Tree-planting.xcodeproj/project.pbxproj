@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85DB7853FD70E517B88214EA /* Pods_Tree_planting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5691D36F9EE8A9AC31B8EEE /* Pods_Tree_planting.framework */; };
+		E2603F482641E4ED004972B2 /* Tree_plantingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2603F472641E4ED004972B2 /* Tree_plantingApp.swift */; };
+		E2603F4A2641E4ED004972B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2603F492641E4ED004972B2 /* ContentView.swift */; };
+		E2603F4C2641E4F0004972B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2603F4B2641E4F0004972B2 /* Assets.xcassets */; };
+		E2603F4F2641E4F0004972B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2603F4E2641E4F0004972B2 /* Preview Assets.xcassets */; };
+		E26915EB264238A8001F094B /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26915EA264238A8001F094B /* GoogleMapView.swift */; };
+		E26915EF26424C1B001F094B /* CurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26915EE26424C1B001F094B /* CurrentLocation.swift */; };
+		E269160F26433A9D001F094B /* GoogleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E269160E26433A9D001F094B /* GoogleSignIn.swift */; };
+		E269165726438DFC001F094B /* tree.json in Resources */ = {isa = PBXBuildFile; fileRef = E269165626438DFC001F094B /* tree.json */; };
+		E26916A82644FDB0001F094B /* TreeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26916A72644FDB0001F094B /* TreeAnimation.swift */; };
+		E26916AC26454CE3001F094B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E26916AB26454CE2001F094B /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C33884CD9397D7B065E54C3 /* Pods-Tree-planting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tree-planting.release.xcconfig"; path = "Target Support Files/Pods-Tree-planting/Pods-Tree-planting.release.xcconfig"; sourceTree = "<group>"; };
+		4F7C5C4A2178DBFCE7D52C62 /* Pods-Tree-planting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tree-planting.debug.xcconfig"; path = "Target Support Files/Pods-Tree-planting/Pods-Tree-planting.debug.xcconfig"; sourceTree = "<group>"; };
+		E2603F442641E4ED004972B2 /* Tree-planting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tree-planting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2603F472641E4ED004972B2 /* Tree_plantingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree_plantingApp.swift; sourceTree = "<group>"; };
+		E2603F492641E4ED004972B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2603F4B2641E4F0004972B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2603F4E2641E4F0004972B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2603F502641E4F0004972B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26915EA264238A8001F094B /* GoogleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
+		E26915EE26424C1B001F094B /* CurrentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocation.swift; sourceTree = "<group>"; };
+		E269160E26433A9D001F094B /* GoogleSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignIn.swift; sourceTree = "<group>"; };
+		E269165626438DFC001F094B /* tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tree.json; sourceTree = "<group>"; };
+		E26916A72644FDB0001F094B /* TreeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeAnimation.swift; sourceTree = "<group>"; };
+		E26916AB26454CE2001F094B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E5691D36F9EE8A9AC31B8EEE /* Pods_Tree_planting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tree_planting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2603F412641E4ED004972B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DB7853FD70E517B88214EA /* Pods_Tree_planting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137E0D3A63E001DDA0AD836E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F7C5C4A2178DBFCE7D52C62 /* Pods-Tree-planting.debug.xcconfig */,
+				2C33884CD9397D7B065E54C3 /* Pods-Tree-planting.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB4B6194BBDC67AFCCD65A56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5691D36F9EE8A9AC31B8EEE /* Pods_Tree_planting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2603F3B2641E4ED004972B2 = {
+			isa = PBXGroup;
+			children = (
+				E2603F462641E4ED004972B2 /* Tree-planting */,
+				E2603F4B2641E4F0004972B2 /* Assets.xcassets */,
+				E2603F452641E4ED004972B2 /* Products */,
+				137E0D3A63E001DDA0AD836E /* Pods */,
+				BB4B6194BBDC67AFCCD65A56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2603F452641E4ED004972B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2603F442641E4ED004972B2 /* Tree-planting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2603F462641E4ED004972B2 /* Tree-planting */ = {
+			isa = PBXGroup;
+			children = (
+				E26916A62644FD87001F094B /* Tree Animation */,
+				E2603F472641E4ED004972B2 /* Tree_plantingApp.swift */,
+				E2603F492641E4ED004972B2 /* ContentView.swift */,
+				E269165626438DFC001F094B /* tree.json */,
+				E269160D26433A6A001F094B /* Google Sign In */,
+				E26916A52644FCE5001F094B /* Google Maps */,
+				E2603F502641E4F0004972B2 /* Info.plist */,
+				E2603F4D2641E4F0004972B2 /* Preview Content */,
+				E26916AB26454CE2001F094B /* GoogleService-Info.plist */,
+				E26915ED26424BD6001F094B /* Current Location */,
+			);
+			path = "Tree-planting";
+			sourceTree = "<group>";
+		};
+		E2603F4D2641E4F0004972B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2603F4E2641E4F0004972B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E26915ED26424BD6001F094B /* Current Location */ = {
+			isa = PBXGroup;
+			children = (
+				E26915EE26424C1B001F094B /* CurrentLocation.swift */,
+			);
+			path = "Current Location";
+			sourceTree = "<group>";
+		};
+		E269160D26433A6A001F094B /* Google Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				E269160E26433A9D001F094B /* GoogleSignIn.swift */,
+			);
+			path = "Google Sign In";
+			sourceTree = "<group>";
+		};
+		E26916A52644FCE5001F094B /* Google Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E26915EA264238A8001F094B /* GoogleMapView.swift */,
+			);
+			path = "Google Maps";
+			sourceTree = "<group>";
+		};
+		E26916A62644FD87001F094B /* Tree Animation */ = {
+			isa = PBXGroup;
+			children = (
+				E26916A72644FDB0001F094B /* TreeAnimation.swift */,
+			);
+			path = "Tree Animation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2603F432641E4ED004972B2 /* Tree-planting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2603F532641E4F0004972B2 /* Build configuration list for PBXNativeTarget "Tree-planting" */;
+			buildPhases = (
+				7C006C947399C2E8B518D5FF /* [CP] Check Pods Manifest.lock */,
+				E2603F402641E4ED004972B2 /* Sources */,
+				E2603F412641E4ED004972B2 /* Frameworks */,
+				E2603F422641E4ED004972B2 /* Resources */,
+				3773BE9E713788114068F7AA /* [CP] Copy Pods Resources */,
+				E4ECD2A8F70522D7E811C430 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tree-planting";
+			productName = "Tree-planting";
+			productReference = E2603F442641E4ED004972B2 /* Tree-planting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2603F3C2641E4ED004972B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E2603F432641E4ED004972B2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = E2603F3F2641E4ED004972B2 /* Build configuration list for PBXProject "Tree-planting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2603F3B2641E4ED004972B2;
+			productRefGroup = E2603F452641E4ED004972B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2603F432641E4ED004972B2 /* Tree-planting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2603F422641E4ED004972B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2603F4F2641E4F0004972B2 /* Preview Assets.xcassets in Resources */,
+				E2603F4C2641E4F0004972B2 /* Assets.xcassets in Resources */,
+				E26916AC26454CE3001F094B /* GoogleService-Info.plist in Resources */,
+				E269165726438DFC001F094B /* tree.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3773BE9E713788114068F7AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tree-planting/Pods-Tree-planting-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tree-planting/Pods-Tree-planting-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tree-planting/Pods-Tree-planting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C006C947399C2E8B518D5FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tree-planting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4ECD2A8F70522D7E811C430 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tree-planting/Pods-Tree-planting-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tree-planting/Pods-Tree-planting-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tree-planting/Pods-Tree-planting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2603F402641E4ED004972B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26916A82644FDB0001F094B /* TreeAnimation.swift in Sources */,
+				E269160F26433A9D001F094B /* GoogleSignIn.swift in Sources */,
+				E26915EF26424C1B001F094B /* CurrentLocation.swift in Sources */,
+				E26915EB264238A8001F094B /* GoogleMapView.swift in Sources */,
+				E2603F4A2641E4ED004972B2 /* ContentView.swift in Sources */,
+				E2603F482641E4ED004972B2 /* Tree_plantingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2603F512641E4F0004972B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2603F522641E4F0004972B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2603F542641E4F0004972B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7C5C4A2178DBFCE7D52C62 /* Pods-Tree-planting.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tree-planting/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tree-planting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ahmed.Tree-planting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2603F552641E4F0004972B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C33884CD9397D7B065E54C3 /* Pods-Tree-planting.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Tree-planting/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tree-planting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ahmed.Tree-planting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2603F3F2641E4ED004972B2 /* Build configuration list for PBXProject "Tree-planting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2603F512641E4F0004972B2 /* Debug */,
+				E2603F522641E4F0004972B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2603F532641E4F0004972B2 /* Build configuration list for PBXNativeTarget "Tree-planting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2603F542641E4F0004972B2 /* Debug */,
+				E2603F552641E4F0004972B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2603F3C2641E4ED004972B2 /* Project object */;
+}
